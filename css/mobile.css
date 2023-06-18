@@ -1,0 +1,51 @@
+@media (min-width: 576px) {
+  .banner-container h1 {
+    letter-spacing: 1.2px;
+  }
+
+  /* NAVBAR */
+  #nav-bar {
+    margin: 0 auto;
+  }
+
+  #nav-bar a:link,
+  #nav-bar a:visited {
+    /* Float to create nav bar */
+    float: left;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    text-align: center;
+    padding: 18px;
+  }
+
+  #nav-bar a:nth-child(odd) {
+    /* prevent double border */
+    border-right: none;
+  }
+
+  .nav-right {
+    float: right;
+  }
+
+  #nav-bar .container::after {
+    /* Clear the float effect */
+    content: "";
+    display: block;
+    clear: both;
+  }
+  /* CERTIFICATE */
+  .certificate-item h2 {
+    font-size: 18px;
+  }
+
+  /* ABOUT MYSELF */
+  #about .about-container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  /* PROJECT STYLES */
+  .project-title {
+    font-size: 18px;
+  }
+}
